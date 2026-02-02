@@ -89,6 +89,8 @@ Files used:
 - `api_data_aadhar_demographic_1500000_2000000.csv`  
 - `api_data_aadhar_demographic_2000000_2071700.csv`  
 
+---
+
 ## Run the Dashboard
 
 To launch the Streamlit dashboard locally:
@@ -96,7 +98,9 @@ To launch the Streamlit dashboard locally:
 ```bash
 pip install -r pipeline/requirements.txt
 streamlit run dashboard/dashboard.py
+```
 
+---
 
 ## Full Analytical Report
 
