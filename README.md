@@ -36,23 +36,34 @@ Generated outputs:
 - `state_child_bottom10.csv`  
 - `state_adult_bottom10.csv`  
 
+Visual Outputs:
+
+The project generates analytical visualizations saved under /graphs and displayed in the Streamlit dashboard:
+
+- child_vs_adult_ratio.png — State-wise child vs adult population share
+- national_child_population_share_over_time.png — Trend of child population percentage
+- national_demographic_composition.png — National child vs adult composition
+- top10_child_states.png — Top child-dominant states
+- top10_adult_states.png — Top adult-dominant states
+
 ---
 
 ## Key Insights Produced
 
-- National Child vs Adult composition  
-- State-wise demographic structure  
-- Top 10 Child-Dominant States  
-- Top 10 Adult-Dominant States  
-- Bottom 10 Child-Ratio States  
-- Bottom 10 Adult-Ratio States  
-- Child population trend over time  
+- National Child vs Adult demographic composition
+- Complete state-wise demographic summary
+- Top 10 Child-Dominant States
+- Top 10 Adult-Dominant States
+- State-level child vs adult population ratio comparison
+- National child population share trend over time
+- Interactive Streamlit demographic dashboard
 
 These outputs help identify:
 
-- Youth-heavy regions for education planning  
-- Adult-heavy states for workforce policy  
-- Regional demographic imbalance  
+- Youth-heavy regions for education planning
+- Adult-heavy regions for workforce and employment planning
+- Demographic imbalance across Indian states
+- Long-term child population trends at national level
 
 ---
 
@@ -70,3 +81,9 @@ Files used:
 - `api_data_aadhar_demographic_1000000_1500000.csv`  
 - `api_data_aadhar_demographic_1500000_2000000.csv`  
 - `api_data_aadhar_demographic_2000000_2071700.csv`  
+
+## 📊 Full Analytical Report
+
+A detailed report of the analysis and findings is available here:
+
+[View PDF Report](insights/UIDAI_Aadhaar_Demographic_Insights.pdf)
