@@ -1,6 +1,13 @@
 # Aadhaar Demographic Intelligence  
 *UIDAI Data Hackathon 2026 Project*
 
+## Visual Highlights
+
+![Demographic Summary](screenshots/dashboard/demographic_summary.png)
+![Child vs Adult Ratio](screenshots/graphs/child_vs_adult_ratio.png)
+![Top 10 Child States](screenshots/graphs/top10_child_states.png)
+![Top 10 Adult States](screenshots/graphs/top10_adult_states.png)
+
 This project builds an end-to-end data intelligence pipeline on UIDAI Aadhaar demographic datasets to extract population structure insights across Indian states.
 
 It transforms raw government data into:
@@ -82,7 +89,16 @@ Files used:
 - `api_data_aadhar_demographic_1500000_2000000.csv`  
 - `api_data_aadhar_demographic_2000000_2071700.csv`  
 
-## 📊 Full Analytical Report
+## Run the Dashboard
+
+To launch the Streamlit dashboard locally:
+
+```bash
+pip install -r pipeline/requirements.txt
+streamlit run dashboard/dashboard.py
+
+
+## Full Analytical Report
 
 A detailed report of the analysis and findings is available here:
 
